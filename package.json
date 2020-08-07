@@ -1,0 +1,30 @@
+{
+  "name": "vueapp",
+  "version": "1.0.0",
+  "description": "Simple outline to iterate on Vue.js, Vuetify, and Babylon.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch"
+  },
+  "author": "Bill Ticehurst",
+  "license": "ISC",
+  "dependencies": {
+    "babylonjs": "^4.1.0",
+    "babylonjs-loaders": "^4.1.0",
+    "babylonjs-materials": "^4.1.0",
+    "vue": "^2.6.11",
+    "vuetify": "^2.2.0"
+  },
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "ts-loader": "^8.0.2",
+    "tslib": "^2.0.1",
+    "typescript": "^3.9.7",
+    "vue-class-component": "^7.2.5",
+    "vue-loader": "^15.9.3",
+    "vue-property-decorator": "^9.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
