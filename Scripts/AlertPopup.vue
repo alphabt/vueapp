@@ -1,11 +1,11 @@
 <template>
     <v-dialog persistent v-model="visible" width="500">
         <v-card tile>
-            <v-card-title class="headline popup-title aat-uppercase" primary-title>
+            <v-card-title class="headline popup-title" primary-title>
                 {{title}}
             </v-card-title>
 
-            <v-card-text class="aat-message-container">
+            <v-card-text>
                 {{message}}
             </v-card-text>
 
@@ -14,11 +14,11 @@
             <v-card-actions>
                 <v-spacer></v-spacer>
 
-                <v-btn v-if="customText" class="aat-button" @click="$emit('custom-clicked')">
+                <v-btn v-if="customText" @click="$emit('custom-clicked')">
                     {{customText}}
                 </v-btn>
 
-                <v-btn class="aat-button" @click="$emit('ok-clicked')" autofocus>
+                <v-btn @click="$emit('ok-clicked')" autofocus>
                     {{okText}}
                 </v-btn>
             </v-card-actions>
@@ -56,9 +56,3 @@
     }
 
 </script>
-
-<style scoped>
-    .aat-message-container {
-        padding: 30px 20px !important;
-    }
-</style>

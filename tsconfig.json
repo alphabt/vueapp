@@ -2,21 +2,6 @@
   "compileOnSave": false,
 
   "compilerOptions": {
-    // "noEmitHelpers": true,
-    // "importHelpers": true,
-    // "noImplicitAny": true,
-    // "noImplicitThis": true,
-    // "noImplicitReturns": true,
-    // "noEmitOnError": true,
-    // "alwaysStrict": true,
-
-    // "strictFunctionTypes": true,
-    // "strictPropertyInitialization": false,
-    // "strictNullChecks": true,
-
-    // "forceConsistentCasingInFileNames": true,
-    // "noFallthroughCasesInSwitch": true,
-
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowUmdGlobalAccess": true,
