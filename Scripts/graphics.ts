@@ -34,19 +34,13 @@ export function CreateScene(engine: Engine, canvas: HTMLCanvasElement) {
     shadowGenerator.blurScale = 2;
     shadowGenerator.setDarkness(0.75);
 
-    // Add a native (.babylon) and a .glb object to the scene.
-    SceneLoader.ImportMesh("", "scenes/", "skull.babylon", scene, function (newMeshes) {
-        shadowGenerator.getShadowMap().renderList.push(newMeshes[0])
-        camera.target = newMeshes[0] as any;
-    });
-
     SceneLoader.Append("scenes/", "Lighthouse.glb", scene, (scene) => {
       // Make the lighthouse bigger and place on the ground
       const lighthouse = scene.meshes[3];
       lighthouse.scaling = new Vector3(15, 15, 15);
       lighthouse.position.y = -3000;
-      lighthouse.position.x = 5000;
-      shadowGenerator.getShadowMap().renderList.push(lighthouse);
+      lighthouse.position.z = 6000;
+      shadowGenerator.addShadowCaster(lighthouse);
     });
 
     return scene;

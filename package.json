@@ -4,7 +4,8 @@
   "description": "Simple outline to iterate on Vue.js, Vuetify, and Babylon.js",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --watch"
+    "build": "webpack --watch",
+    "start": "npx http-server"
   },
   "author": "Bill Ticehurst",
   "license": "ISC",
@@ -13,7 +14,8 @@
     "babylonjs-loaders": "^4.1.0",
     "babylonjs-materials": "^4.1.0",
     "vue": "^2.6.11",
-    "vuetify": "^2.2.0"
+    "vue-router": "^3.4.3",
+    "vuetify": "^2.3.8"
   },
   "devDependencies": {
     "css-loader": "^4.2.1",
