@@ -1,7 +1,7 @@
 # Sample Vue.js and Babylon.js app
 
-This repro is a simple starter for experimenting with using the Vue.js, Vuetify,
-and Babylon.js libraries.
+This is a simple starter for experimenting with using the Vue.js, Vuetify, and
+Babylon.js libraries.
 
 ## Installation and usage
 
@@ -19,8 +19,8 @@ changes and rebuilds automatically. (The generated files go into the `./dist` di
 
 To launch a local web server, in another window run `npm run start`. This will
 run a web server locally using the [http-server](https://www.npmjs.com/package/http-server)
-package, and display which URL it can be accessed on (e.g. probably something like
-`http://127.0.0.1:8080`).
+package, and display which URL the site can be accessed on (e.g. probably something
+like `http://127.0.0.1:8080`).
 
 ## Development
 
