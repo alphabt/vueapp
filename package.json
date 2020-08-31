@@ -4,7 +4,8 @@
   "description": "Simple outline to iterate on Vue.js, Vuetify, and Babylon.js",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --watch",
+    "build": "webpack",
+    "watch": "webpack --watch",
     "start": "npx http-server"
   },
   "author": "Bill Ticehurst",
